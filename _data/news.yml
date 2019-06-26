@@ -1,15 +1,21 @@
 # News on home page
 main:
-  - "(April 2019) I receive Macquarie University [Award for Academic Excellence](https://students.mq.edu.au/admin/scholarships-and-financial-support/high-achievers)"
-#   - "(May 2019) We have released the [nocaps](https://nocaps.org/) benchmark for **n**ovel **o**bject **cap**tioning at **s**cale."
-#   - "(February 2019) We have a paper accepted to [CVPR 2019](http://cvpr2019.thecvf.com/). Congratulations to Huda and Vincent."
-  - "(December 2018) Officially graduation from Macquarie University's Ms. of IT."
-#   - "(February 2019) Co-organizing the [Visual Question Answering and Dialog Workshop](https://visualqa.org/workshop.html) and the [Habitat: Embodied Agents Challenge and Workshop](https://facebookmicrosites.github.io/habitat-website/workshop/) at CVPR 2019."
+  - "(18 April 2019) I received Macquarie University [Award for Academic Excellence](https://students.mq.edu.au/admin/scholarships-and-financial-support/high-achievers)"
+  - "(17 February 2019) One of my papers will be published in Proceedings of the 3rd International Conference on Machine Learning and Soft Computing [ICMLSC 2019](http://www.icmlsc.org/2019.html)"
+  - "(13 December 2018) Officially graduation from Macquarie University's Ms. of IT."
+  - "(26 November 2018) One of my papers will be published in Proceedings of the 2018 International Conference on Machine Learning and Data Engineering [iCMLDE 2018](http://www.icmlde.net.au/Home.aspx)"
+  - "(06 August 2018) I started working as a Data Analyst Intern at Data Department, [Domain Group](https://domain.com.au)"
 
 all:
-  - "(April 2019) I receive Macquarie University [Award for Academic Excellence](https://students.mq.edu.au/admin/scholarships-and-financial-support/high-achievers)"
-#   - "(May 2019) We have released the [nocaps](https://nocaps.org/) benchmark for **n**ovel **o**bject **cap**tioning at **s**cale."
-  - "(February 2019) We have a paper accepted to [CVPR 2019](http://cvpr2019.thecvf.com/). Congratulations to Huda and Vincent."
-  - "(December 2018) Officially graduation from Macquarie University's Ms. of IT."
+  - "(18 April 2019) I received Macquarie University [Award for Academic Excellence](https://students.mq.edu.au/admin/scholarships-and-financial-support/high-achievers)"
+  - "(17 February 2019) One of my papers will be published in Proceedings of the 3rd International Conference on Machine Learning and Soft Computing [ICMLSC 2019](http://www.icmlsc.org/2019.html)"
+  - "(13 December 2018) Officially graduation from Macquarie University's Ms. of IT."
+  - "(26 November 2018) One of my papers will be published in Proceedings of the 2018 International Conference on Machine Learning and Data Engineering [iCMLDE 2018](http://www.icmlde.net.au/Home.aspx)"
+  - "(06 August 2018) I started working as a Data Analyst Intern at Data Department, [Domain Group](https://domain.com.au)"
+  - "(22 February 2018) I started working as a Casual Academic Staff at Computing Department, [Macquarie University](https://mq.edu.au)"
+  - "(27 February 2017) Excited to begin my Master degree of Information Technology at [Macquarie University], Sydney, Australia(https://mq.edu.au)"
+  - "(03 August 2016) I have been offered the joint Macquarie University Vice-Chancellor's International Scholarship (VCIS) - VIED Scholarship"
 #   - "(February 2019) Co-organizing the [Visual Question Answering and Dialog Workshop](https://visualqa.org/workshop.html) and the [Habitat: Embodied Agents Challenge and Workshop](https://facebookmicrosites.github.io/habitat-website/workshop/) at CVPR 2019."
+#   - "(May 2019) We have released the [nocaps](https://nocaps.org/) benchmark for **n**ovel **o**bject **cap**tioning at **s**cale."
+#   - "(February 2019) We have a paper accepted to [CVPR 2019](http://cvpr2019.thecvf.com/). Congratulations to Huda and Vincent."
 
