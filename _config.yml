@@ -66,8 +66,8 @@ google_ad_slot           :
 author:
   name             : # "Peter Anderson"
   avatar           : "bio-photo-dan.png"
-  bio              : "a Data Analyst"
-  location         :
+  bio              : "I am keen on carrying out research on Machine Learning, NLP and Computer Vision; Then developing intelligent applications, which highly benefit community and industry."
+  location         : "NgheAn, Vietnam"
   email            : "danh.phan.mq@gmail.com"
   uri              :
   bitbucket        :
@@ -76,7 +76,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "danhphan"
   google_plus      :
   keybase          :
   instagram        :
