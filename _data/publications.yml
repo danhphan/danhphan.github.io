@@ -9,7 +9,7 @@ year2019:
   - title: "Australia Housing Price Prediction using Machine Learning Algorithms: The Case of Melbourne City, Australia"
     authors: "The Danh Phan"
     venue: "In Proceedings of the 2018 International Conference on Machine Learning and Data Engineering (iCMLDE 2018)"
-    teaser: sets_of_sequences.png
+    teaser: publication_02.png
     links:
       - "[PDF](https://ieeexplore.ieee.org/document/8614000){: .btn .btn--info}"
   - title: "Discovery of interesting exception rules using attribute-driven inductive methods"
