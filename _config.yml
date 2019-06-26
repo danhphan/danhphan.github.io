@@ -7,12 +7,12 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Peter Anderson"
+title                    : "Danh Phan"
 title_separator          : "-"
-name                     : "Peter Anderson"
-description              : "Peter Anderson's personal academic website."
-url                      : https://www.panderson.me
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "Danh Phan"
+description              : "Danh Phan's personal website."
+### url                      : https://www.panderson.me
+### baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -66,9 +66,9 @@ google_ad_slot           :
 author:
   name             : # "Peter Anderson"
   avatar           : "bio-photo-2.jpg"
-  bio              : "Research Scientist in Computer Vision / Deep Learning at Georgia Tech"
-  location         : "Atlanta, Georgia USA"
-  email            : "peter.anderson@gatech.edu"
+  bio              : "a Data Analyst"
+  location         :
+  email            : "danh.phan.mq@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -81,18 +81,18 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "panderson80"
+  linkedin         : "danhpt"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "panderson_me"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
   youtube          :
-  scholar          : r5mA7Q8AAAAJ
+  scholar          : 
 
 
 # Reading Files
