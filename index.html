@@ -20,12 +20,15 @@ author_profile: true
 </div>
 
 <h2 style="clear: both;" id="publications">Publications <a href="https://scholar.google.com/citations?user=r5mA7Q8AAAAJ&hl=en" style="font-size: 0.85em; font-weight: normal;">[Google Scholar]</a></h2>
-<h3>2019</h3>
+<!-- Keep One list of publications, Hide year title -->
+<!-- <h3>2019</h3> -->
 {% for publication in site.data.publications.year2019 %}
   {% include publication-single.html %}
 {% endfor %}
 <div style="clear: both;"></div>
-<h3>2018</h3>
+
+<!-- danpph - Hide other publications -->
+<!-- <h3>2018</h3>
 {% for publication in site.data.publications.year2018 %}
   {% include publication-single.html %}
 {% endfor %}
@@ -45,15 +48,16 @@ author_profile: true
   {% include publication-single.html %}
 {% endfor %}
 <div style="clear: both;"></div>
-
-<h2 id="presentations">Presentations</h2>
+ -->
+<!-- Danph - Disable presentations -->
+<!-- <h2 id="presentations">Presentations</h2>
 <div class="fitvidsignore"> 
  <p><a href="https://youtu.be/RjEMJIsRWAo">Three Minute Thesis (3MT) Talk - The Language of Sight</a>. ANU 3MT Finalist, September 2017.</p>
   <iframe width="230" height="120" src="https://www.youtube.com/embed/RjEMJIsRWAo" frameborder="0" allowfullscreen></iframe>
 </div>
 {% for item in site.data.presentations.main %}
   {{ item | markdownify}}
-{% endfor %}
+{% endfor %} -->
 
 <h2 id="bio">Bio</h2>
 {% include timeline.html %}
