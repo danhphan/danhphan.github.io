@@ -19,7 +19,7 @@ author_profile: true
   <a href="#" onclick="hideBlock('allnews'); showBlock('news'); return false;" class="btn btn--inverse">Less</a>
 </div>
 
-<h2 style="clear: both;" id="publications">Publications <a href="https://scholar.google.com/citations?user=r5mA7Q8AAAAJ&hl=en" style="font-size: 0.85em; font-weight: normal;">[Google Scholar]</a></h2>
+<h2 style="clear: both;" id="publications">Publications</h2>
 <!-- Keep One list of publications, Hide year title -->
 <!-- <h3>2019</h3> -->
 {% for publication in site.data.publications.year2019 %}
@@ -62,7 +62,7 @@ author_profile: true
 <h2 id="bio">Bio</h2>
 {% include timeline.html %}
 
-<h2>Projects</h2>
+<h2 id="projects">Projects</h2>
 <div>
   <article class="publication__item" itemscope itemtype="https://schema.org/CreativeWork">
     <div class="publication__item-teaser" style="margin-top: 1em;">
