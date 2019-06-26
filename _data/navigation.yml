@@ -1,8 +1,12 @@
 # main links links
 main:
-  - title: "News"
-    url: /blog/
+#  Danph - Disable news from blog
+#   - title: "News"
+#     url: /blog/
 
+  - title: "News"
+    url: /#news
+    
   - title: "Publications"
     url: /#publications
 
