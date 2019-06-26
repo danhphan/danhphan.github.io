@@ -5,6 +5,11 @@ author_profile: true
 
 {% include base_path %}
 
+<h2 id="about">About me</h2>
+<div>
+  <div id="mynetwork"></div>
+</div>
+
 <h2>News</h2>
 <div id="news">
   {% for item in site.data.news.main %}
@@ -78,3 +83,41 @@ author_profile: true
   </article>
 </div> -->
 
+<script type="text/javascript">
+    // create an array with nodes
+    var nodes = [
+        { id: 3, label: 'Amin Beheshti', group: 1, title: 'Dr. Amin Beheshti' },
+        { id: 2, label: 'UNSW Australia', group: 2, title: 'University of New South Wales, Australia' },
+        { id: 1, label: 'PhD', group: 3, title: 'Doctor of Philosophy in *Computer Science and Engineering*' },
+        { id: 4, label: 'Lecturer', group: 4, title: 'Lecturer in Data Science' },
+        { id: 5, label: 'Data Science Lead', group: 4, title: 'https://en.wikipedia.org/wiki/Data_science' },
+        { id: 6, label: 'Researcher', group: 4, title: 'https://en.wikipedia.org/wiki/Research' },
+        { id: 7, label: 'Big Data Analytics', group: 6, title: 'Big data analytics refers to the strategy of analyzing large volumes of data, or big data.' },
+        { id: 8, label: 'Software/Data Engineering', group: 6, title: 'https://en.wikipedia.org/wiki/Software_engineering' },
+        { id: 9, label: 'Service/Social Computing', group: 6, title: 'https://en.wikipedia.org/wiki/Services_computing' },
+        { id: 10, label: 'Business Process Management', group: 6, title: 'https://en.wikipedia.org/wiki/Business_process_management' },
+        { id: 11, label: 'Macquarie Univerity', group: 2, title: 'Macquarie Univerity, Australia' }
+    ];
+    // create an array with edges
+    var edges = [
+        { from: 4, to: 11, label: 'at', font: { align: 'middle' } },
+        { from: 4, to: 2, label: 'at', font: { align: 'middle' } },
+        { from: 3, to: 1, label: 'holds-a', font: { align: 'middle' } },
+        { from: 1, to: 2, label: 'from', font: { align: 'middle' } },
+        { from: 3, to: 4, label: 'is-a', font: { align: 'middle' } },
+        { from: 3, to: 5, label: 'is-a', font: { align: 'middle' } },
+        { from: 3, to: 6, label: 'is-a', font: { align: 'middle' } },
+        { from: 6, to: 7, label: 'field', font: { align: 'middle' } },
+        { from: 6, to: 8, label: 'field', font: { align: 'middle' } },
+        { from: 6, to: 9, label: 'field', font: { align: 'middle' } },
+        { from: 6, to: 10, label: 'field', font: { align: 'middle' } }
+    ];
+    // create a network
+    var container = document.getElementById('mynetwork');
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = { nodes: { shape: 'dot', size: 10, font: { size: 10 }, borderWidth: 2, shadow: true }, edges: { width: 2, shadow: true } };
+    var network = new vis.Network(container, data, options);
+</script>
