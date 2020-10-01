@@ -1,9 +1,5 @@
 # main links links
 main:
-#  Danph - Disable news from blog
-  - title: "Blog"
-    url: /blog/
-
   - title: "News"
     url: /#news
     
@@ -15,7 +11,9 @@ main:
     
   - title: "Projects"
     url: /#projects
-    
+  
+  - title: "Blog"
+    url: /blog/
 #   - title: "CV"
 #     url: /images/MyCV.pdf
 
