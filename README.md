@@ -1,4 +1,4 @@
-# Danh Phan website - Fork from Peter Anderson
+# Danh Phan website
 
 ## Commands
 

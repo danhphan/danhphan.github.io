@@ -11,8 +11,8 @@ title                    : "Danh Phan"
 title_separator          : "-"
 name                     : "Danh Phan"
 description              : "Danh Phan's personal website."
-### url                      : https://www.panderson.me
-### baseurl                  : # the subpath of your site, e.g. "/blog"
+### url                      : https://danhphan.github.io
+### baseurl                  : /blog
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -20,7 +20,7 @@ words_per_minute         : 200
 comments:
   provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "peterandersonblog" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "danh phan blog" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -37,7 +37,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : danhpt
 facebook:
   username               :
   app_id                 :
@@ -64,10 +64,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : # "Peter Anderson"
+  name             : "Danh Phan"
   avatar           : "bio-photo-dan.png"
   bio              : "I am keen on carrying out research on Machine Learning, NLP and Computer Vision; Then developing intelligent based applications."
-  location         : "Vietnam"
+  location         : "Melbourne, Australia"
   email            : "danh.phan.mq@gmail.com"
   uri              :
   bitbucket        :
@@ -87,13 +87,13 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "danhpt"
   vine             :
   weibo            :
   xing             :
   youtube          :
   scholar          : 
-  skype          : "danh.phan.mq"
+  skype            : "danh.phan.mq"
   
 
 # Reading Files

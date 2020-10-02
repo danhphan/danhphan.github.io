@@ -22,39 +22,4 @@ year2019:
       - "[PDF](https://www.academia.edu/2999124){: .btn .btn--info}"
 
 
-#   - title: "Trainable Decoding of Sets of Sequences for Neural Sequence Models"
-#     authors: "Ashwin Kalyan, **Peter Anderson**, Stefan Lee, Dhruv Batra"
-#     venue: "To appear in *International Conference on Machine Learning (ICML)*, 2019. **Oral Presentation**{:.oral}"
-#     teaser: sets_of_sequences.png
-#     links:
-#       - "[PDF](http://proceedings.mlr.press/v97/kalyan19a/kalyan19a.pdf){: .btn .btn--info}"
-#       - "[Code](https://github.com/ashwinkalyan/diff-bs){: .btn .btn--inverse}"
-
-# year2018:
-#   - title: "Partially-Supervised Image Captioning"
-#     authors: "**Peter Anderson**, Stephen Gould, Mark Johnson"
-#     venue: "In *Advances in Neural Information Processing Systems (NeurIPS)*, 2018."
-#     teaser: PS3.png
-#     links: 
-#       - "[PDF](https://arxiv.org/pdf/1806.06004.pdf){: .btn .btn--info}"
-#       - "[Poster](/images/NIPS_PS3.pdf){: .btn}"
-
-# thesis:
-#   - title: "Vision and Language Learning: From Image Captioning and Visual Question Answering towards Embodied Agents"
-#     authors: "**Peter Anderson**"
-#     venue: "*PhD Thesis, Australian National University*, 2018."
-#     teaser: anu-logo.jpg
-#     links: 
-#       - "[Archive](http://hdl.handle.net/1885/164018){: .btn .btn--success}"
-#       - "[PDF](/images/Andersonthesis.pdf){: .btn .btn--info}"
-# undergrad:
-#   - title: "An ICP Inspired Inverse Sensor Model with Unknown Data Association"
-#     authors: "**Peter Anderson**, Youssef Hunter and Bernhard Hengst"
-#     venue: "In *IEEE International Conference on Robotics and Automation (ICRA)*, 2013."
-#     teaser: icp-teaser.jpg
-#     links: 
-#       - "[PDF](/images/ICP-sensor-model.pdf){: .btn .btn--info}"
-
-
-
 
