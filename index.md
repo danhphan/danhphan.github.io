@@ -1,5 +1,5 @@
 ---
-title: 'Danh Phan'
+title: ''
 layout: single
 author_profile: true
 excerpt: 'Turning data into actinable insights'
@@ -8,7 +8,6 @@ excerpt: 'Turning data into actinable insights'
 #   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
-# About me
 
 I'm currently working remotely for [Xco-Analytics](https://www.colonnagroup.fr/xco-analytics/) in Shanghai, as a full-time **Lead Data Engineer**, since February 2021.
 
