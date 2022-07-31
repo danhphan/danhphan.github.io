@@ -1,13 +1,11 @@
 main:
-  - title: "Home"
+  - title: "About"
     url: /
   - title: "Portfolio"
     url: /projects/
   - title: "Blog Posts"
     url: https://danhphan.github.io/blog
   - title: "Publications"
-    url: /about/
+    url: /publications/
   - title: "Resume"
-    url: /about/
-  - title: "About"
-    url: /about/
+    url: /resume/
