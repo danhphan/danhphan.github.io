@@ -47,33 +47,35 @@ plugins:
 author:
   name   : "Danh Phan"
   avatar : "/assets/images/danh_phan.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "My passion is turning data into actionable insights."
+  location : "Australia"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://danhphan.github.io"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danhpt"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/danhpt"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/danhphan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 footer:
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danhpt"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/danhpt"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/danhphan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+    
 defaults:
   # _posts
   - scope:
