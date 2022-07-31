@@ -1,9 +1,6 @@
 ---
-permalink: /projects/
-title: "Projects Portfolio"
-toc: true
-toc_label: "List of my projects"
-toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
+permalink: /publications/
+title: "Publications"
 ---
 
 ## Publications
