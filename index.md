@@ -6,6 +6,9 @@ excerpt: 'Turning data into actinable insights'
 # header:
 #   overlay_image: /images/paris.jpg
 #   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+sidebar:
+  - title: ""
+    text: <a class="twitter-timeline" data-width="800" data-height="640" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 
