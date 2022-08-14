@@ -42,13 +42,3 @@ title: "Publications"
 
 <center><img src="../assets/publications/publication_02.png"/></center>
 ---
-
-### Discovery of interesting exception rules using attribute-driven inductive methods
-
-*In the 27th Scientific Student Research Conference, Hanoi University of Science and Technology 2009-2010*
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)
-[![View PDF](https://img.shields.io/badge/PDF-View%20pdf-brightgreen)](https://www.academia.edu/2999124)
-
-<center><img src="../assets/publications/publication_03.png"/></center>
----
