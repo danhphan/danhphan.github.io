@@ -66,3 +66,7 @@ Update: 2020/01/13
 ## Contact me
 
 For any inquires, you can reach me via email: **_[rafael.cartenet@gmail.com](mailto:rafael.cartenet@gmail.com)_**
+
+
+
+<a class="twitter-timeline" data-width="800" data-height="640" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danhphan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
