@@ -1,6 +1,13 @@
 ---
 permalink: /publications/
-title: "Publications"
+author_profile: true
+excerpt: 'Turning data into actinable insights'
+header:
+  overlay_image: assets/images/header-1566x403.jpg
+  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+sidebar:
+  - title: ""
+    text: <a class="twitter-timeline" data-height="335" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 toc: true
 toc_label: "List of my recent papers"
 toc_icon: "heart"
