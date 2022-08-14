@@ -53,15 +53,18 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://danhphan.github.io"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/danhpt"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/danhpt"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/danhphan"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/danhpt"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danhpt"    
+    - label: "Google Scholar"
+      icon: "fad fa-graduation-cap"
+      url: "https://scholar.google.com.au/citations?user=6p-aW4cAAAAJ&hl=en"
 
 
 footer:
@@ -75,7 +78,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/danhphan"
-    
+
 defaults:
   # _posts
   - scope:
