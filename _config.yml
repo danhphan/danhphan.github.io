@@ -1,8 +1,9 @@
 # Site settings
-title: Danh Phan
+title: ""
+logo: "/assets/images/logo-707x200.png"
 email: danh.phan.mq@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, my name is Danh Phan. I am obssess with driving meaningsfull insights from data.
+  Hi, my name is Danh Phan. I am obssess with driving meaningfull insights from data.
 twitter_username: danhpt
 github_username: danhphan
 minimal_mistakes_skin: default
