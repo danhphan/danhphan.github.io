@@ -1,6 +1,9 @@
 ---
 permalink: /publications/
 title: "Publications"
+toc: true
+toc_label: "List of my recent papers"
+toc_icon: "heart"
 ---
 
 ### A New Approach to Improve Destination Choice by Ranking Personal Preferences
