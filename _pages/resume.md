@@ -14,14 +14,21 @@ Please find the PDF version of my resume on [this]({{ site.url }}/download/CV_en
 
 ## Previous work experiences
 
-- **Machine Learning R&D Engineer** - Shanghai:  
-  I completed my end-of-study internship in Shanghai as a Machine Learning R&D Engineer for a sino-french startup called **[Mediasia-Labs](http://mediasia-labs.com)**. I have been working on *Deep-Learning* and *Advanced Algorithms* applied to Pronunciation Evaluation for language learners.
 
-- **Research Assistant** - Daejon (South-Korea):  
-  I have been a volunteer in a Research Laboratory dedicated to Artificial Intelligence **[AIM](http://slsp.kaist.ac.kr/xe/)** where I worked on video classification for the CVPR2017 workshop, especially working on *Attention Gated LSTM Cell*, in TensorFlow.
+- **Data Scientist** - Johnson Controls - Australia:  
+  Oct 2021 - Present 
 
-- **Software Engineer Intern** - Paris:  
-  I have been an intern at **[Aerow](https://www.aerow.group/en/home/)** in Paris, as a Software Engineer and integrator. I have been developing a simple OCR for bankcheques CMC7 code, using simple *Machine-Learning* techniques.
+  Develop Dynamic Pricing Models; Margin and Conversion rate optimisation; Customer churn modelling; Perform data analysis and build various KPIs and BI dashboards; Improve data quality, data governance and data security; Build and deploy End to End ML applications on Microsoft Azure.
+
+- **Data Science Associate Instructor** - Data Fluency, Monash University - Australia:  
+  Jul 2021 - Present 
+
+  Prepare technical materials; Teach hands-on workshops on machine learning, data analysis with Python, and data visualisation (Power BI) for professional staff and researchers at Monash University; Lead a group of four instructors.
+
+- **Data Analyst Intern** - Domain Group - Australia:  
+  Aug 2018 - Nov 2018	
+
+  Developed customer clustering models for marketing and sales teams; Performed data analysis using SQL, ETL, Python; Building various dashboards with Tableau.
 
 ## Education
 
