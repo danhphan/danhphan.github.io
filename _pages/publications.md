@@ -26,7 +26,7 @@ Several publications:
 
 ### A novel activity pattern generation incorporating deep learning for transport demand models
 
-*Transportation Research Part C: Emerging Technologies, Under review 2021.*
+*Transportation Research Part C: Emerging Technologies, Under review.*
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/m2actgen)
 [![View PDF](https://img.shields.io/badge/PDF-View%20pdf-brightgreen)](https://arxiv.org/abs/2104.02278)
