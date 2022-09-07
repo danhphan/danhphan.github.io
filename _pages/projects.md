@@ -1,18 +1,19 @@
 ---
 permalink: /projects/
 author_profile: true
-excerpt: 'Turning data into actinable insights'
+excerpt: ''
 header:
-  overlay_image: assets/images/header-1566x403.jpg
-  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+  overlay_image: assets/images/header-background.jpg
 sidebar:
   - title: ""
-    text: <a class="twitter-timeline" data-height="335" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    text: ""
 entries_layout: grid
 toc: true
 toc_label: "List of my projects"
 toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
+
+Recent projects:
 
 ## Natural Language Processing
 

@@ -32,4 +32,4 @@ You can check about my different projects on my [projects page](https://danhphan
 <p class="text-center"><a href="https://danhphan.github.io/blog/" class="btn btn--info">Read My Blog Posts</a></p>
 
 
-<a class="twitter-timeline" data-height="335" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height="650" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

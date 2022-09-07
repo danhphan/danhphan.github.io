@@ -1,10 +1,9 @@
 ---
 permalink: /resume/
 classes: wide
-excerpt: 'Turning data into actinable insights'
+excerpt: ''
 header:
-  overlay_image: assets/images/header-1566x403.jpg
-  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+  overlay_image: assets/images/header-background.jpg
 sidebar:
   - title: ""
     text: ""
