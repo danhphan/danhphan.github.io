@@ -26,12 +26,10 @@ https://www.pymc.io/blog/blog_gsoc_2022.html#danh-phan
 
 ---
 
-*As a problem-solving enthusiast, I have always been eager to meet new technical challenges, where I can learn some new things and feed my curiosity.*
-
 You can check about my different projects on my [projects page](https://danhphan.github.io/projects/)
 
 
-<p class="text-center"><a href="https://danhphan.github.io/posts/" class="btn btn--info">Read My Blog Posts</a></p>
+<p class="text-center"><a href="https://danhphan.github.io/blog/" class="btn btn--info">Read My Blog Posts</a></p>
 
 ## Contact me
 
