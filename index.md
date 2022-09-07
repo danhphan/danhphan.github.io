@@ -14,7 +14,7 @@ sidebar:
 
 Hi, my name is Danh Phan. I am passionate in turning data into actionable insights. My goal is to develop data-driven products to solve real-world problems and to help businesses make efficient science-based decisions.
 
-<p class="text-center"><a href="http://127.0.0.1:4000/resume/" class="btn btn--info">Resume</a> <a href="http://127.0.0.1:4000/projects/" class="btn btn--info">Portfolio</a> <a href="https://www.linkedin.com/in/danhpt" class="btn btn--info">LinkedIn</a></p>
+<p class="text-center"> <a href="https://danhphan.net/projects/" class="btn btn--info">Portfolio</a> <a href="https://www.linkedin.com/in/danhpt" class="btn btn--info">LinkedIn</a> <a href="https://danhphan.net/resume/" class="btn btn--info">Resume</a> </p>
 
 I'm currently working as a **Data Scientist** at the Pacific service team, [Johnson Controls Australia](https://www.johnsoncontrols.com/en_au). My tasks involve developing Dynamic Pricing Models; Margin and Conversion rate optimisation; Customer churn modelling on Microsoft Azure; Performing data analysis and building various KPIs and BI dashboards.
 
