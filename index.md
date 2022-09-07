@@ -30,8 +30,3 @@ You can check about my different projects on my [projects page](https://danhphan
 
 
 <p class="text-center"><a href="https://danhphan.github.io/blog/" class="btn btn--info">Read My Blog Posts</a></p>
-
-## Contact me
-
-For any inquires, you can reach me via email: **_[danh.phan.mq@gmail.com](mailto:danh.phan.mq@gmail.com)_**
-
