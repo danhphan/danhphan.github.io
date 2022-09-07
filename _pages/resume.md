@@ -38,21 +38,17 @@ Please find the PDF version of my resume on [this]({{ site.url }}/download/CV_en
 - **Master Of Engineering** - Rouen (France):  
   I graduated from INSA Rouen Normandy with a Master of Engineering in April 2018, majoring in *Applied Mathematics* and *Computer Science*.
 
+	PhD Candidate on Intelligent Transport Systems	Feb 2020 - Present	
+	Institute of Transport Studies, Monash University	Melbourne, Australia
+	Supervisors: Prof. Hai Vu, Prof. Graham Currie
+	Topic: Machine learning for transport systems; Activity-based Agent-based models.
+	Master of Information Technology	Feb 2017 - Dec 2018	
+	Macquarie University	Sydney, Australia
+	Final internship: Data Analyst at Domain Group
+	Core units: Machine Learning, Data Mining, Information Systems, Security Management
+	GPA 6.733/7 (4.0/4.0); Top one postgraduate student; Academic Excellence Award
+
+
 ---
-
-## Programming Skills
-
-Proficient with: **Python, Apache Spark, Torch7, Scikit-Learn, SQL, bash, Git.**
-
-Familiar with: **Java, R, C/C++,**
-
-## Languages
-
-| Language   | Level  |
-|------------|--------|
-| English    | Fluent |
-| Vietnamese | Fluent |
-
-
 
 Update: 2022/08/20
