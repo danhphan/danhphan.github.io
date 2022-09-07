@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
 sidebar:
   - title: ""
-    text: <a class="twitter-timeline" data-height="335" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    text: ""
 ---
 
 Please find the PDF version of my resume on [this]({{ site.url }}/download/CV_english.pdf)
