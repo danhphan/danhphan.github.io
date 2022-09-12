@@ -30,5 +30,6 @@ Read more about my projects on [projects page](https://danhphan.net/projects/)
 
 <p class="text-center"><a href="https://danhphan.net/blog/" class="btn btn--info">Read My Blog Posts</a></p>
 
+Let's connect on Linkedin <a href="https://www.linkedin.com/in/danhpt">@danhpt</a> or on Twitter <a href="https://twitter.com/danhpt">@danhpt</a>
 
 <a class="twitter-timeline" data-height="650" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
