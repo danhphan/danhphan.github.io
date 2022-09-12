@@ -27,3 +27,4 @@ This project visualises the daily activities of Melbournians in different areas.
 <center><img src="../assets/projects/Melbourne_activities_1min.gif"/></center>
 
 ---
+
