@@ -15,7 +15,7 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 - [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/0146ec6f-3a1d-453a-9dfc-ff4f29a69530/linked_in_profile) - Microsoft
 - [Discrete Choice Analysis: Predicting Market Demand](https://www.credential.net/85141069-15fa-4d93-901d-57114a8a2b4a#gs.c372q5) - MIT
-- [Scalable Machine Learning with Apache Spark](https://www.johnsoncontrols.com/en_au) - Databricks
+- [Scalable Machine Learning with Apache Spark](https://danhphan.net/assets/certifications/Databricks_Scalable%20Machine%20Learning%20with%20Apache%20Spark.pdf) - Databricks
 
 ## Work experiences
 
