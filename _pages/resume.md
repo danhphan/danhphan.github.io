@@ -11,6 +11,12 @@ sidebar:
 
 Please check the PDF version of my resume on [this link]({{ site.url }}/assets/pdf/Danh.Phan_Resume.pdf).
 
+## Certifications
+
+
+- **Data Scientist** - [Johnson Controls](https://www.johnsoncontrols.com/en_au) - Australia:
+
+
 ## Work experiences
 
 
