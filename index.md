@@ -3,10 +3,8 @@ title: ''
 layout: single
 classes: wide
 author_profile: true
-# excerpt: 'Turning data into actinable insights'
 header:
   overlay_image: assets/images/header-background.jpg
-  # overlay_filter: 0.0 # same as adding an opacity of 0.5 to a black background
 sidebar:
   - title: ""
     text: ""
