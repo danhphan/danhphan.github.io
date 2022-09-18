@@ -22,7 +22,7 @@ Recent projects:
 
 Multi-output Gaussian processes (MOGPs) have recently become an active research topic in machine learning’s multi-task learning. The advantage of multi-output GPs is its capacity to simultaneously learn and infer many outputs which have the same source of uncertainty from inputs. 
 
-This project aims to add support for multi-output GPs in PyMC. This feature would significantly extend the capabilities of this important module, and benefit the PyMC community.
+This project aims to add support for multi-output GPs in [PyMC](https://docs.pymc.io/en/stable/api/gp.html). This feature would significantly extend the capabilities of this important module, and benefit the [PyMC community](https://discourse.pymc.io/).
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments)
 
@@ -47,9 +47,9 @@ In this application, I have applied SQL and Pandas for data preparation, Matplot
 
 ### Building Docker images for PyMC
 
-I have built a docker file for PyMC v4, which is merged into PyMC project's code base.
+I have built a docker file for PyMC v4, which support both GPUs and CPUs version. The dockerfile has been merged into PyMC project's code base in this [PR](https://github.com/pymc-devs/pymc/pull/5881).
 
-The docker image is published on [Docker Hub](https://hub.docker.com/r/pymc/pymc/tags).
+The docker image is then published on [Docker Hub](https://hub.docker.com/r/pymc/pymc/tags), so users can easily pull the image and set up their environment.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/pymc-docker)
 
