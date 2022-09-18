@@ -30,6 +30,17 @@ This project aims to add support for multi-output GPs in [PyMC](https://docs.pym
 
 ---
 
+### Aussie Social Sentiment Analysis
+
+This project collects data from Twitter’s APIs, then cleans and stores in a sql database. The data is then used for model training and prediction of sentiment analysis for other tweets. The webapp uses Dash visualisations and is deployed on Herokuapp.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/aussie-sentiment)
+[![View Demo](https://img.shields.io/badge/%E2%86%91_Deploy_to-Heroku-7056bf.svg?style=flat)](https://aussie-sentiments.herokuapp.com)
+
+<center><img src="../assets/projects/aussie_sentiment_analysis.gif"/></center>
+
+---
+
 ### Customers persona clustering
 
 The goal of this application is to identify the critical groups of users. It will categorise users into different segmentations and try to map these groups with existing Personas.
@@ -37,7 +48,6 @@ The dataset, which is Google Analytics data of a website in the last 12 months, 
 In this application, I have applied SQL and Pandas for data preparation, Matplotlib for data exploration, and ScikitLearn package in Python for building models.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/melburnian-daily-activities)
-
 
 <center><img src="../assets/projects/domain_customer_clusters.jpg"/></center>
 
