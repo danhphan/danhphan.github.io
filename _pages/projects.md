@@ -15,6 +15,19 @@ toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 
 Recent projects:
 
+
+## MLOps
+
+### Building Docker images for PyMC
+
+I have built a docker file for PyMC v4, which is merged into PyMC project's code base.
+
+The docker image is published on [Docker Hub](https://hub.docker.com/r/pymc/pymc/tags).
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/pymc-docker)
+
+<center><img src="../assets/projects/pymc_docker.JPG"/></center>
+
 ## Data Science
 
 ### Data Visualisation: Melbournian Daily Activities
