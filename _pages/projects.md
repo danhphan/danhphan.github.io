@@ -16,6 +16,33 @@ toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 Recent projects:
 
 
+## Machine Learning
+
+### Multi-output Gaussian Processes in PyMC 
+
+Multi-output Gaussian processes (MOGPs) have recently become an active research topic in machine learning’s multi-task learning. The advantage of multi-output GPs is its capacity to simultaneously learn and infer many outputs which have the same source of uncertainty from inputs. 
+
+This project aims to add support for multi-output GPs in PyMC. This feature would significantly extend the capabilities of this important module, and benefit the PyMC community.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments)
+
+<center><img src="../assets/projects/pymc_mogp.JPG"/></center>
+
+---
+
+### Customers persona clustering
+
+The goal of this application is to identify the critical groups of users. It will categorise users into different segmentations and try to map these groups with existing Personas.
+The dataset, which is Google Analytics data of a website in the last 12 months, has more than billion rows and hundred columns. 
+In this application, I have applied SQL and Pandas for data preparation, Matplotlib for data exploration, and ScikitLearn package in Python for building models.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/melburnian-daily-activities)
+
+
+<center><img src="../assets/projects/domain_customer_clusters.jpg"/></center>
+
+---
+
 ## MLOps
 
 ### Building Docker images for PyMC
@@ -27,6 +54,8 @@ The docker image is published on [Docker Hub](https://hub.docker.com/r/pymc/pymc
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/pymc-docker)
 
 <center><img src="../assets/projects/pymc_docker.JPG"/></center>
+
+---
 
 ## Data Science
 
@@ -48,18 +77,5 @@ A Telegram bot in Python, which will automatically push the top listings into th
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/melburnian-daily-activities)
 
 <center><img src="../assets/projects/domain_tegegram_bot.jpg"/></center>
-
----
-
-### Customers persona clustering
-
-The goal of this application is to identify the critical groups of users. It will categorise users into different segmentations and try to map these groups with existing Personas.
-The dataset, which is Google Analytics data of a website in the last 12 months, has more than billion rows and hundred columns. 
-In this application, I have applied SQL and Pandas for data preparation, Matplotlib for data exploration, and ScikitLearn package in Python for building models.
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/melburnian-daily-activities)
-
-
-<center><img src="../assets/projects/domain_customer_clusters.jpg"/></center>
 
 ---
