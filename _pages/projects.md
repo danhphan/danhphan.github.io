@@ -20,7 +20,7 @@ Recent projects:
 
 ### Multi-output Gaussian Processes in PyMC 
 
-Multi-output Gaussian processes (MOGPs) have recently become an active research topic in machine learning’s multi-task learning. The advantage of multi-output GPs is its capacity to simultaneously learn and infer many outputs which have the same source of uncertainty from inputs. 
+The advantage of Multi-output Gaussian processes (MOGPs) is its capacity to simultaneously learn and infer many outputs which have the same source of uncertainty from inputs. For example, to model the moving prices of different stocks, or the performances of different sport players.
 
 This project aims to add support for multi-output GPs in [PyMC](https://docs.pymc.io/en/stable/api/gp.html). This feature would significantly extend the capabilities of this important module, and benefit the [PyMC community](https://discourse.pymc.io/).
 
