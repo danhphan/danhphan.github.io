@@ -22,7 +22,7 @@ Recent projects:
 
 The advantage of Multi-output Gaussian processes (MOGPs) is its capacity to simultaneously learn and infer many outputs which have the same source of uncertainty from inputs. For example, to model the moving prices of different stocks, or the performances of different sport players.
 
-This project aims to add support for multi-output GPs in [PyMC](https://docs.pymc.io/en/stable/api/gp.html). This feature would significantly extend the capabilities of this important module, and benefit the [PyMC community](https://discourse.pymc.io/).
+This Google Summer of Code [project](https://summerofcode.withgoogle.com/programs/2022/projects/lKwZ8APE) aims to add support for multi-output GPs in [PyMC](https://docs.pymc.io/en/stable/api/gp.html). This feature would significantly extend the capabilities of this important module, and benefit the [PyMC community](https://www.pymc.io/blog/blog_gsoc_2022.html#danh-phan).
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments)
 
@@ -41,17 +41,6 @@ This project collects data from Twitter’s APIs, then cleans and stores in a sq
 
 ---
 
-### Customers persona clustering
-
-This project aims to identify the critical groups of users for Domain Group. Customers are categorised into different segmentations, and then these groups are map with existing Personas defined by the Marketing team.
-
-The Google Analytics dataset has more than billion rows and hundred columns. SQL and Python packages (Pandas, ScikitLearn, ...) are used for data processing and building models.
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/Statistical-Learning)
-
-<center><img src="../assets/projects/domain_customer_clusters.jpg"/></center>
-
----
 
 ## MLOps
 
@@ -89,3 +78,5 @@ A Telegram bot in Python, which will automatically push the top listings into th
 <center><img src="../assets/projects/domain_tegegram_bot.jpg"/></center>
 
 ---
+
+For more projects, please check my [github@danhphan](https://github.com/danhphan).
