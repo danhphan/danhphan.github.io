@@ -18,15 +18,27 @@ Recent projects:
 
 ## Machine Learning
 
-### Multi-output Gaussian Processes in PyMC 
+### Interest rates predictions 
 
-The advantage of Multi-output Gaussian processes (MOGPs) is its capacity to simultaneously learn and infer many outputs which have the same source of uncertainty from inputs. For example, to model the moving prices of different stocks, or the performances of different sport players.
+This project aims to predict the base interest rates in Australia, US, and UK in the coming months. 
 
 This Google Summer of Code [project](https://summerofcode.withgoogle.com/programs/2022/projects/lKwZ8APE) aims to add support for multi-output GPs in [PyMC](https://docs.pymc.io/en/stable/api/gp.html). This feature would significantly extend the capabilities of this important module, and benefit the [PyMC community](https://www.pymc.io/blog/blog_gsoc_2022.html#danh-phan).
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/credit-risk)
 
-<center><img src="../assets/projects/pymc_mogp.JPG"/></center>
+<center><img src="../assets/projects/interest_rates.jpg"/></center>
+
+---
+
+### Modelling baseball players's performance
+
+We model the performances of different sport players by leveraging Multi-output Gaussian processes (MOGPs), which can simultaneously learn and infer many outputs which have the same source of uncertainty from inputs.
+
+This project is the result of Google Summer of Code [project](https://summerofcode.withgoogle.com/programs/2022/projects/lKwZ8APE), which adds support for multi-output GPs in [PyMC](https://www.pymc.io/blog/blog_gsoc_2022.html#danh-phan). This feature would significantly extend the capabilities of this GP module. The following picture shows the estimated sprin rates of three top pitchers in different game dates. Please check the [PyMC example](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html) for further details.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments) [![View on PyMC](https://img.shields.io/badge/PyMC-View%20on%20PyMC%20Documentation-brightgreen)](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html)
+
+<center><img src="../assets/projects/pitchers_performance.jpg"/></center>
 
 ---
 
