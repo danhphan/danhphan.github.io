@@ -13,9 +13,11 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 ## Certifications
 
-- [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/0146ec6f-3a1d-453a-9dfc-ff4f29a69530/linked_in_profile) - Microsoft
-- [Discrete Choice Analysis: Predicting Market Demand](https://www.credential.net/85141069-15fa-4d93-901d-57114a8a2b4a#gs.c372q5) - MIT
-- [Scalable Machine Learning with Apache Spark](https://danhphan.net/assets/certifications/Databricks_Scalable%20Machine%20Learning%20with%20Apache%20Spark.pdf) - Databricks
+- [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/0146ec6f-3a1d-453a-9dfc-ff4f29a69530/linked_in_profile) - Microsoft, 2022
+- [Microsoft Certified: Azure Data Engineer Associate](https://www.credly.com/badges/014e627c-bd21-4e71-93b2-1e8394f9c875/public_url) - Microsoft, 2022
+- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/4b53c738-8539-4699-a4c1-936399adf7d0/linked_in_profile) - Amazon Web Services, 2022
+- [Discrete Choice Analysis: Predicting Market Demand](https://www.credential.net/85141069-15fa-4d93-901d-57114a8a2b4a#gs.c372q5) - MIT, 2021
+- [Scalable Machine Learning with Apache Spark](https://danhphan.net/assets/certifications/Databricks_Scalable%20Machine%20Learning%20with%20Apache%20Spark.pdf) - Databricks, 2021
 
 ## Work experiences
 
