@@ -56,9 +56,21 @@ This project collects data from Twitter’s APIs, then cleans and stores in a sq
 
 ## MLOps
 
+### Accelerating testing CI pipelines
+
+Continuous Integration - Continuous Development (CI/CD) plays an essential role in MlOps and DataOps. One of the popular CI/CD tools is GitHub Actions. To enhance CI/CD pipelines, we can use the matrix strategy in GitHub Actions to run parallel tasks. 
+
+For example, I have recently leveraged the `strategy.matrix` feature to significantly accelerate the testing CI pipelines for [PyTensor](https://github.com/pymc-devs/pytensor) from 75 mins to around 26 mins (**a 65% reduction** in running time). Please check this [pull request](https://github.com/pymc-devs/pytensor/pull/176) for further details.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/pymc-devs/pytensor/pull/176)
+
+<center><img src="../assets/projects/testing_CI.jpg"/></center>
+
+---
+
 ### Building Docker images for PyMC
 
-I have built a docker file for PyMC v4, which support both GPUs and CPUs version. The dockerfile has been merged into PyMC project's code base in this [PR](https://github.com/pymc-devs/pymc/pull/5881).
+I have built a docker file for PyMC v4, which support both GPUs and CPUs version. The dockerfile has been merged into PyMC project's code base in this [pull request](https://github.com/pymc-devs/pymc/pull/5881).
 
 The docker image is then published on [Docker Hub](https://hub.docker.com/r/pymc/pymc/tags), so users can easily pull the image and set up their environment.
 
