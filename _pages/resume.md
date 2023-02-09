@@ -28,9 +28,9 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
   Develop Dynamic Pricing Models; Margin and Conversion rate optimisation; Customer churn modelling; Perform data analysis and build various KPIs and BI dashboards; Improve data quality, data governance and data security; Build and deploy End to End ML applications on Microsoft Azure.
 
 - **Data Science Associate Instructor** - [Monash Data Fluency](https://www.monash.edu/data-fluency/home) - Australia:  
-  Jul 2021 - Present 
+  Jul 2021 - Dec 2022 
 
-  Prepare technical materials; Teach hands-on workshops on machine learning, data analysis with Python, and data visualisation (Power BI) for professional staff and researchers at Monash University; Lead a group of four instructors.
+  Prepared technical materials; Taught hands-on workshops on machine learning, data analysis with Python, and data visualisation (Power BI) for professional staff and researchers at Monash University; Led a group of four instructors.
 
 - **Data Analyst Intern** - [Domain Group](https://www.domain.com.au/group/) - Australia:  
   Aug 2018 - Nov 2018	
@@ -40,7 +40,7 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 ## Education
 
 - **PhD Candidate - Machine Learning for Transport Systems** - Monash University - Australia:  
-  Feb 2020 - Present 
+  Feb 2020 - Feb 2023 
 
   Topic: Machine learning for transport systems; Activity-based Agent-based models. Supervisors: Prof. [Hai Vu](https://www.monash.edu/engineering/lehaivu), Prof. [Graham Currie](https://www.monash.edu/engineering/grahamcurrie).
 
@@ -58,4 +58,4 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 ---
 
-Update: Jan 2023
+Update: Feb 2023
