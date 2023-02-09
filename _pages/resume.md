@@ -13,6 +13,7 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 ## Certifications
 
+- [dbt Fundamentals](https://www.credential.net/286e1864-1fb6-45ed-bbb2-c9be91e359e0#gs.phoo1p) - dbt labs, 2023
 - [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/0146ec6f-3a1d-453a-9dfc-ff4f29a69530/linked_in_profile) - Microsoft, 2022
 - [Microsoft Certified: Azure Data Engineer Associate](https://www.credly.com/badges/014e627c-bd21-4e71-93b2-1e8394f9c875/public_url) - Microsoft, 2022
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/4b53c738-8539-4699-a4c1-936399adf7d0/linked_in_profile) - Amazon Web Services, 2022
