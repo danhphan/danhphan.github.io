@@ -59,8 +59,6 @@ df["date"] = pd.to_datetime(df["date"])
 # Make DataFrame Pipeline Interactive
 idf = df.interactive()
 
-
-WIDTH = 600
 country_mapping = {"US":0, "UK":1, "AU":2} 
 pred_results = {}
 
@@ -73,28 +71,29 @@ for idx, country in enumerate(country_mapping.keys()):
     pred_results[country] = df_data
 
 
-chart_data = (idf.hvplot(x = 'date', by='country', y='rate', kind='scatter', xlabel="Date", ylabel="Observed interest rate", 
-                         line_width=2, title="Interest rates by Country", width=WIDTH) *
-              idf.hvplot(x = 'date', by='country', y='rate', line_width=1)
+WIDTH = 550
+chart_data = (idf.hvplot(x = 'date', by='country', y='rate', kind='scatter', 
+                         xlabel="Date", ylabel="Observed interest rate", width=WIDTH,
+                         line_width=2, title="Historical interest rates by Country") *
+              idf.hvplot(x = 'date', by='country', y='rate', line_width=1, color=["blue", "green", "red"])
               ).opts(legend_position='top', legend_offset=(150, 0))
 
 
 
-
 # Make DataFrame Pipeline Interactive
-def plot(pred_results, country):
+def plot(pred_results, country, color='red'):
     y_iteractivate = pred_results[country].interactive()
-    panel_plot = (y_iteractivate.hvplot(label="10% Quantile", alpha=0.5, x="Date", y="Q10",
-                        xlabel='Date', ylabel="Predicted interest rate", width=WIDTH, title=f'Prediction for {country}') * 
-                  y_iteractivate.hvplot(label="90% Quantile", x="Date", y="Q90", alpha=0.5) *
-                  y_iteractivate.hvplot(label='mean', x="Date", y="Mean", color='red', line_width=3) )
+    panel_plot = (y_iteractivate.hvplot(label="10% Quantile", alpha=0.5, x="Date", y="Q10", width=WIDTH,
+                        xlabel='Date', ylabel="Predicted interest rate", title=f'Prediction for {country}') * 
+                  y_iteractivate.hvplot(label="90% Quantile", x="Date", y="Q90", alpha=0.3) *
+                  y_iteractivate.hvplot(label='mean', x="Date", y="Mean", color=color, line_width=3) )
     return panel_plot.opts(legend_position='top', legend_offset=(150,0))
 
 
 
-pred_au = plot(pred_results, 'AU')
-pred_us = plot(pred_results, 'US')
-pred_uk = plot(pred_results, 'UK')
+pred_au = plot(pred_results, 'AU', 'blue')
+pred_us = plot(pred_results, 'US', 'green')
+pred_uk = plot(pred_results, 'UK', 'red')
 
 #Layout using Template
 template = pn.template.FastListTemplate(
@@ -103,12 +102,13 @@ template = pn.template.FastListTemplate(
              pn.pane.Markdown("#### Interest rates prediction for US, AU and UK. This project is used for technology demonstration purpose, and should not be used for the investment decision-making."), 
 #              pn.pane.PNG('climate_day.png', sizing_mode='scale_both'),
              ],
-    main=[pn.Row(pn.Column(chart_data.panel(width=WIDTH), margin=(0,25)), 
-                 pred_au.panel(width=WIDTH)), 
-          pn.Row(pn.Column(pred_us.panel(width=WIDTH), margin=(0,25)), 
-                 pn.Column(pred_uk.panel(width=WIDTH)))],
+    main=[pn.Row(pn.Column(chart_data.panel()), 
+                 pred_au.panel()), 
+          pn.Row(pn.Column(pred_us.panel()), 
+                 pn.Column(pred_uk.panel()))],
     accent_base_color="#88d8b0",
     header_background="#88d8b0",
+    sizing_mode="stretch_both"
 )
 
 template.servable()
