@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.2/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.2/dist/wheels/panel-0.14.2-py3-none-any.whl', 'pyodide-http==0.1.0', 'arviz', 'holoviews>=1.15.1', 'hvplot', 'matplotlib', 'nbs', 'numpy', 'nutpie', 'pandas', 'pymc', 'pytensor', 'xarray']
+  const env_spec = ['https://cdn.holoviz.org/panel/0.14.2/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.2/dist/wheels/panel-0.14.2-py3-none-any.whl', 'pyodide-http==0.1.0', 'arviz', 'holoviews>=1.15.1', 'hvplot', 'numpy', 'pandas', 'xarray']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -49,20 +49,33 @@ init_doc()
 
 import numpy as np
 import pandas as pd
-import pymc as pm
-import nutpie
-import arviz as az
 import xarray as xr
-import pytensor.tensor as at
-import matplotlib.pyplot as plt
-from nbs.util import build_XY
-
-
+import arviz as az
 
 import hvplot.pandas
 import hvplot.xarray
 import panel as pn
 pn.extension('tabulator')
+
+def build_XY(input_list,output_list=None,index=None):
+    num_outputs = len(input_list)
+    if output_list is not None:
+        assert num_outputs == len(output_list)
+        Y = np.vstack(output_list)
+    else:
+        Y = None
+
+    if index is not None:
+        assert len(index) == num_outputs
+        I = np.hstack( [np.repeat(j,_x.shape[0]) for _x,j in zip(input_list,index)] )
+    else:
+        I = np.hstack( [np.repeat(j,_x.shape[0]) for _x,j in zip(input_list,range(num_outputs))] )
+
+    X = np.vstack(input_list)
+    X = np.hstack([X,I[:,None]])
+
+    return X,Y,I[:,None] #slices
+
 
 gp_samples = az.InferenceData.from_netcdf("./nbs/mogp.nc")
 
