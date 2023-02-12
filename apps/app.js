@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.2/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.2/dist/wheels/panel-0.14.2-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.1', 'hvplot', 'numpy', 'pandas', 'xarray']
+  const env_spec = ['https://cdn.holoviz.org/panel/0.14.2/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.2/dist/wheels/panel-0.14.2-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.1', 'hvplot', 'netCDF4', 'numpy', 'pandas', 'requests', 'xarray']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -55,6 +55,10 @@ import hvplot.xarray
 import panel as pn
 pn.extension('tabulator')
 
+import requests
+from netCDF4 import Dataset
+
+
 def build_XY(input_list,output_list=None,index=None):
     num_outputs = len(input_list)
     if output_list is not None:
@@ -75,7 +79,7 @@ def build_XY(input_list,output_list=None,index=None):
     return X,Y,I[:,None] #slices
 
 
-df = pd.read_csv("./data/interest_rates.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/danhphan/credit-risk/main/data/interest_rates.csv")
 df["date"] = pd.to_datetime(df["date"])
 
 n_outputs = 3
@@ -95,8 +99,7 @@ pred_results = {}
 for idx, country in enumerate(country_mapping.keys()):
     # Prediction
     print(idx, country)
-    pred_results[country] = xr.open_dataset(f"./nbs/{country}.nc")
-
+    pred_results[country] = xr.open_dataset(f"{country}.nc")
 
 # Make DataFrame Pipeline Interactive
 idf = df.interactive()
