@@ -15,7 +15,7 @@ async function startApplication() {
   self.pyodide.globals.set("sendPatch", sendPatch);
   console.log("Loaded!");
   await self.pyodide.loadPackage("micropip");
-  const env_spec = ['https://cdn.holoviz.org/panel/0.14.2/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.2/dist/wheels/panel-0.14.2-py3-none-any.whl', 'pyodide-http==0.1.0', 'arviz', 'holoviews>=1.15.1', 'hvplot', 'numpy', 'pandas', 'xarray']
+  const env_spec = ['https://cdn.holoviz.org/panel/0.14.2/dist/wheels/bokeh-2.4.3-py3-none-any.whl', 'https://cdn.holoviz.org/panel/0.14.2/dist/wheels/panel-0.14.2-py3-none-any.whl', 'pyodide-http==0.1.0', 'holoviews>=1.15.1', 'hvplot', 'numpy', 'pandas', 'xarray']
   for (const pkg of env_spec) {
     let pkg_name;
     if (pkg.endsWith('.whl')) {
@@ -50,8 +50,6 @@ init_doc()
 import numpy as np
 import pandas as pd
 import xarray as xr
-import arviz as az
-
 import hvplot.pandas
 import hvplot.xarray
 import panel as pn
@@ -77,8 +75,6 @@ def build_XY(input_list,output_list=None,index=None):
     return X,Y,I[:,None] #slices
 
 
-gp_samples = az.InferenceData.from_netcdf("./nbs/mogp.nc")
-
 df = pd.read_csv("./data/interest_rates.csv")
 df["date"] = pd.to_datetime(df["date"])
 
@@ -96,14 +92,10 @@ dates_idx.head()
 
 pred_results = {}
 
-f_pred = gp_samples.posterior_predictive["preds"].sel(chain=0)
-
 for idx, country in enumerate(country_mapping.keys()):
     # Prediction
     print(idx, country)
-    y_ = f_pred[:,M*idx:M*(idx+1)]
-    y_["preds_dim_2"] = ("preds_dim_2", dates_idx["date"])
-    pred_results[country] = y_
+    pred_results[country] = xr.open_dataset(f"./nbs/{country}.nc")
 
 
 # Make DataFrame Pipeline Interactive
