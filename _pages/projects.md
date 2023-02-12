@@ -25,7 +25,15 @@ This project aims to predict the base interest rates in Australia, US, and UK in
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/credit-risk)
 
+[Project dashboard](https://danhphan.net/apps/interest-rate.html)
+<center><img src="../assets/projects/predicted_interest_rates.png"/></center>
+
+
+*Data pipelines and architecture*
+
 <center><img src="../assets/projects/ir_architecture_v1.jpg"/></center>
+
+
 
 ---
 

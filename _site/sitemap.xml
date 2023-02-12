@@ -22,6 +22,14 @@
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/apps/app.html</loc>
+<lastmod>2023-02-12T17:11:52+11:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/apps/interest-rate.html</loc>
+<lastmod>2023-02-12T17:11:57+11:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/certifications/Coursera_Deep%20Learning%20Specialization.pdf</loc>
 <lastmod>2022-09-12T20:53:13+10:00</lastmod>
 </url>
@@ -52,5 +60,9 @@
 <url>
 <loc>http://localhost:4000/presentations/Intro-PyMC.html</loc>
 <lastmod>2022-11-13T18:42:07+11:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/presentations/Intro_PyMC_GP.html</loc>
+<lastmod>2023-02-11T17:48:43+11:00</lastmod>
 </url>
 </urlset>
