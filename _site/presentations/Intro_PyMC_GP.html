@@ -14694,7 +14694,7 @@ For simplicity, let's assume $x_i$ is scalar.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Bayesian-Linear-Regression">Bayesian Linear Regression<a class="anchor-link" href="#Bayesian-Linear-Regression">&#182;</a></h3>$$f(x_i, \theta) = \beta_0 + \beta_1 x_i$$<p>where $$\theta = [\beta_0, \beta_1]$$
+<h3 id="1.1-Bayesian-Linear-Regression">1.1 Bayesian Linear Regression<a class="anchor-link" href="#1.1-Bayesian-Linear-Regression">&#182;</a></h3>$$f(x_i, \theta) = \beta_0 + \beta_1 x_i$$<p>where $$\theta = [\beta_0, \beta_1]$$
 So $$y_i = f(x_i,\theta) + \epsilon_i = \beta_0 + \beta_1 x_i + \epsilon_i$$</p>
 <p>The parameter $\theta$ is inferred through Bayes' rule</p>
 $$P(\theta|X,y) = \frac{P(y|X,\theta) \times P(\theta)}{P(y|X)} = \frac{P(y|X,\theta) \times P(\theta)}{\int P(y|X,\theta)P(\theta) d\theta} = posterior = \frac{likelihood * prior}{evidence \  or \  marginal \  likelihood} $$<p>Predict unseen data by computing the predictive posterior
@@ -14710,7 +14710,7 @@ $$P(y_∗|X_∗,X,y) = \int P(y_∗|\theta, X_∗)P(\theta|𝐗, y)d\theta $$</p
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Gaussian-Process">Gaussian Process<a class="anchor-link" href="#Gaussian-Process">&#182;</a></h3><ul>
+<h3 id="1.2-Gaussian-Process">1.2 Gaussian Process<a class="anchor-link" href="#1.2-Gaussian-Process">&#182;</a></h3><ul>
 <li>The primary goal of the forecasting model is to compute the underlying function $f$ from the noisy observation $y$</li>
 <li>If we less interested in $\theta$, and more interested in model predictive capability =&gt; Can infer $f$ directly!</li>
 </ul>
@@ -14730,7 +14730,7 @@ $$f(x) = \mathcal{GP}( m(x), k(x,x') )$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="GP-Mean-and-Covariance-Functions">GP Mean and Covariance Functions<a class="anchor-link" href="#GP-Mean-and-Covariance-Functions">&#182;</a></h2>
+<h3 id="1.3-GP-Mean-and-Covariance-Functions">1.3 GP Mean and Covariance Functions<a class="anchor-link" href="#1.3-GP-Mean-and-Covariance-Functions">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14828,7 +14828,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Bayesian-Linear-Regression-in-PyMC">Bayesian Linear Regression in PyMC<a class="anchor-link" href="#Bayesian-Linear-Regression-in-PyMC">&#182;</a></h3><p>Simple linear regression:
+<h2 id="2.-Model-implementation-in-PyMC">2. Model implementation in PyMC<a class="anchor-link" href="#2.-Model-implementation-in-PyMC">&#182;</a></h2><h3 id="2.1-Bayesian-Linear-Regression">2.1 Bayesian Linear Regression<a class="anchor-link" href="#2.1-Bayesian-Linear-Regression">&#182;</a></h3><p>Simple linear regression:
 $$y_i = f(x_i,\theta) + \epsilon_i$$
 $$ y_i = \beta_0 + \beta_1 x_i + \epsilon_i $$</p>
 <p>There are three unknowns, each of which need to be given a prior:</p>
@@ -15149,7 +15149,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Gaussian-Processes">Gaussian Processes<a class="anchor-link" href="#Gaussian-Processes">&#182;</a></h2>$$y_i = f(x_i,\theta) + \epsilon_i$$$$f(x) = \mathcal{GP}(m(x), k(x,x')$$$$f(x) = \mathcal{GP}( Linear, ExpQuad(x,x') )$$
+<h3 id="2.2-Gaussian-Processes-in-PyMC">2.2 Gaussian Processes in PyMC<a class="anchor-link" href="#2.2-Gaussian-Processes-in-PyMC">&#182;</a></h3>$$y_i = f(x_i,\theta) + \epsilon_i$$$$f(x) = \mathcal{GP}(m(x), k(x,x')$$$$f(x) = \mathcal{GP}( Linear, ExpQuad(x,x') )$$
 </div>
 </div>
 </div>
@@ -15520,7 +15520,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="References">References<a class="anchor-link" href="#References">&#182;</a></h2><ul>
+<h2 id="3.-References">3. References<a class="anchor-link" href="#3.-References">&#182;</a></h2><ul>
 <li>Rasmussen and Williams, 2005. <a href="https://direct.mit.edu/books/book/2320/Gaussian-Processes-for-Machine-Learning">Gaussian Processes for Machine Learning</a></li>
 <li>Bagas Abisena Swastanto, 2016. <a href="https://repository.tudelft.nl/islandora/object/uuid:7f3916c9-795c-403f-bec8-5eb6caa3e398/datastream/OBJ/download">Gaussian process regression for long-term time series forecasting</a></li>
 <li>Chris Fonnesbeck, PyData NYC, 2019. <a href="https://github.com/fonnesbeck/gp_regression">A Primer on Gaussian Processes for Regression Analysis</a></li>
