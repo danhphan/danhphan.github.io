@@ -44,8 +44,8 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 ## Education
 
-- **PhD Candidate - Machine Learning for Transport Systems** - Monash University - Australia:  
-  Feb 2020 - Feb 2023 
+- **PhD Researcher - Machine Learning for Transport Systems** - Monash University - Australia:  
+  Feb 2020 - Apr 2023 
 
   Topic: Machine learning for transport systems; Activity-based Agent-based models. Supervisors: Prof. [Hai Vu](https://www.monash.edu/engineering/lehaivu), Prof. [Graham Currie](https://www.monash.edu/engineering/grahamcurrie).
 
@@ -63,4 +63,4 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 ---
 
-Update: Aug 2023
+Update: Jun 2023
