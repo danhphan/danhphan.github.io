@@ -22,8 +22,13 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 ## Work experiences
 
+- **Senior Data Engineer** - [HESTA](https://www.hesta.com.au/about-us) - Australia:  
+  May 2023 - Present 
+
+  Building data platform for the Investment Data Team.
+
 - **Data Analytics Engineer - Data Analyst** - [Johnson Controls](https://www.johnsoncontrols.com/en_au) - Australia:  
-  Oct 2021 - Present 
+  Oct 2021 - Apr 2023 
 
   Develop Dynamic Pricing Models; Margin and Conversion rate optimisation; Customer churn modelling; Perform data analysis and build various KPIs and BI dashboards; Improve data quality, data governance and data security; Build and deploy End to End ML applications on Microsoft Azure.
 
@@ -58,4 +63,4 @@ Please check the PDF version of my resume on [this link]({{ site.url }}/assets/p
 
 ---
 
-Update: Feb 2023
+Update: Aug 2023
