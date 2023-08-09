@@ -28,4 +28,4 @@ Before that, Danh was a Ph.D. **researcher** at [Monash University](https://www.
 
 Let's connect on Linkedin <a href="https://www.linkedin.com/in/danhpt">@danhpt</a> or on Twitter <a href="https://twitter.com/danhpt">@danhpt</a>
 
-<a class="twitter-timeline" data-height="650" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- <a class="twitter-timeline" data-height="650" href="https://twitter.com/danhpt?ref_src=twsrc%5Etfw">Tweets by danh phan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
