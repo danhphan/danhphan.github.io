@@ -50,7 +50,7 @@ sidebar:
 
 ## Certifications
 
-- [dbt Fundamentals](https://www.credential.net/286e1864-1fb6-45ed-bbb2-c9be91e359e0#gs.phoo1p) - dbt labs, 2023
+- [DBT Fundamentals](https://www.credential.net/286e1864-1fb6-45ed-bbb2-c9be91e359e0#gs.phoo1p) - dbt labs, 2023
 - [Microsoft Certified: Azure Data Scientist Associate](https://www.credly.com/badges/0146ec6f-3a1d-453a-9dfc-ff4f29a69530/linked_in_profile) - Microsoft, 2022
 - [Microsoft Certified: Azure Data Engineer Associate](https://www.credly.com/badges/014e627c-bd21-4e71-93b2-1e8394f9c875/public_url) - Microsoft, 2022
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/4b53c738-8539-4699-a4c1-936399adf7d0/linked_in_profile) - Amazon Web Services, 2022
@@ -60,24 +60,25 @@ sidebar:
 ## Education
 
 - **PhD Researcher - Machine Learning for Transport Systems** - Monash University - Australia:  
-  Feb 2020 - May 2023 
+  2020 - 2023 
 
-  Topic: Machine learning for transport systems; Activity-based Agent-based models. Supervisors: Prof. [Hai Vu](https://www.monash.edu/engineering/lehaivu), Prof. [Graham Currie](https://www.monash.edu/engineering/grahamcurrie).
+  Topic: [Machine learning for activity-based models: Toward personalised preferences and mobility tastes](https://bridges.monash.edu/articles/thesis/Machine_learning_for_activity-based_models_Toward_personalised_preferences_and_mobility_tastes/23734773).
+  Supervisors: Prof. [Hai Vu](https://www.monash.edu/engineering/lehaivu), Prof. [Graham Currie](https://www.monash.edu/engineering/grahamcurrie).
   Received Monash University Full Scholarship and Travel Grants.
 
 
 - **Master of Information Technology** - Macquarie University - Australia:  
-  Feb 2017 - Feb 2019 
+  2017 - 2019 
 
   Core units: Machine Learning, Data Mining, Information Systems, Security Management; 
   Received Macquarie University Award for Academic Excellence.
 
 - **Bachelor of Information Technology** - Hanoi University of Science and Technology - Vietnam:  
-  Aug 2005 - Jul 2010 
+  2005 - 2010 
 
   Core units: Probability and Statistics, Algebra and Analytic, Numerical methods, Discrete Mathematics, Artificial Intelligence, Data structures and algorithms, Software Engineering. High Distinction with scholarships.
 
 
 ---
 
-Update: Jun 2025
+Update: Mar 2025
