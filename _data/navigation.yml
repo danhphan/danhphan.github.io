@@ -3,9 +3,11 @@ main:
     url: /
   - title: "Portfolio"
     url: /projects/
-  - title: "Publications"
-    url: /publications/
   - title: "Resume"
     url: /resume/
+  - title: "Talk"
+    url: /talks/
   - title: "Blog"
     url: https://danhphan.net/blog
+  - title: "Publications"
+    url: /publications/  

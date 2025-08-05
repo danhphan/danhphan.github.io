@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Tag</title>
+<!-- begin _includes/seo.html --><title></title>
 <meta name="description" content="Hi there, my name is Danh Phan. Turning data into actionable insights is my passion.">
 
 
@@ -21,14 +21,15 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="">
-<meta property="og:title" content="Posts by Tag">
-<meta property="og:url" content="http://localhost:4000/tags/">
+<meta property="og:title" content="">
+<meta property="og:url" content="http://localhost:4000/talks/">
 
 
   <meta property="og:description" content="Hi there, my name is Danh Phan. Turning data into actionable insights is my passion.">
 
 
 
+  <meta property="og:image" content="http://localhost:4000/assets/images/header-background.jpg">
 
 
 
@@ -38,7 +39,8 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/tags/">
+
+<link rel="canonical" href="http://localhost:4000/talks/">
 
 
 
@@ -78,7 +80,7 @@
 
   </head>
 
-  <body class="layout--tags" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -156,6 +158,41 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/header-background.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          
+
+        
+      </h1>
+      
+        <p class="page__lead">
+</p>
+      
+      
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
 
 
 
@@ -276,29 +313,108 @@
 </div>
 
   
-  </div>
-
-
-
-  <div class="archive">
     
-      <h1 id="page-title" class="page__title">Posts by Tag</h1>
+      
+      <h3></h3>
+      
+
+      
     
     
-
-
-
-
-
-<ul class="taxonomy__index">
   
-</ul>
-
-
-
-
-
   </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="description" content="">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-heart"></i> List of my talks</h4></header>
+              <ul class="toc__menu"><li><a href="#building-3d-trusted-data-pipelines-with-dagster-dbt-and-duckdb">Building 3D Trusted Data Pipelines With Dagster, Dbt, and Duckdb</a></li><li><a href="#multi-output-gaussian-processes-mogps-with-pymc">Multi-output Gaussian processes (MoGPs) with PyMC</a></li><li><a href="#an-introduction-to-probabilistic-programming-in-python">An introduction to Probabilistic Programming in Python</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Related talks:</p>
+
+<h3 id="building-3d-trusted-data-pipelines-with-dagster-dbt-and-duckdb">Building 3D Trusted Data Pipelines With Dagster, Dbt, and Duckdb</h3>
+
+<p>PyCon Australia, Aug 2023</p>
+
+<p>This talk will demonstrate an example of building trusted data pipelines with 3D packages: Dagster, Dbt, and Duckdb. First, it presents the importance of trusted data pipelines by testing data quality. It then discusses what we need to test data quality, from high levels (like tables, relations, …) to low levels (like rows and columns). After that, I will show how to implement these tests using different Dbt packages like dbt-utils and dbt-expectations.</p>
+
+<p>Link: <a href="https://2023.pycon.org.au/program/RY9ZCY/">https://2023.pycon.org.au/program/trusted-data-pipelines/</a></p>
+
+<p>Recording: <a href="https://www.youtube.com/watch?v=jAb0T3cDcd0">https://www.youtube.com/watch?v=jAb0T3cDcd0</a></p>
+
+<p><a href="https://github.com/danhphan/trusted-data-pipeline"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a></p>
+
+<p><em>Data pipelines and architecture</em></p>
+
+<center><img src="../assets/projects/3D_data_pipeline.png" /></center>
+
+<hr />
+
+<h3 id="multi-output-gaussian-processes-mogps-with-pymc">Multi-output Gaussian processes (MoGPs) with PyMC</h3>
+
+<p>PyMCon Web Series, Feb 2023</p>
+
+<p>The talk aims to get users quickly up and performing gaussian processes (GPs), especially multi-output GPs using PyMC. Several examples with time-series datasets are used to illustrate different GPs features. This presentation will allow users to leverage GPs to analyze their data effectively.</p>
+
+<p>The following picture shows the estimated sprin rates of three top pitchers in different game dates. Please check the <a href="https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html">PyMC example</a> for further details.</p>
+
+<p>Link: <a href="https://pymcon.com/events/#an_introduction_to_multi-output_gaussian_processes_using_pymc">https://pymcon.com/events/gaussian-processes-introduction</a></p>
+
+<p><a href="https://github.com/danhphan/gp_experiments"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a> <a href="https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html"><img src="https://img.shields.io/badge/PyMC-View%20on%20PyMC%20Documentation-brightgreen" alt="View on PyMC" /></a></p>
+
+<center><img src="../assets/projects/pitchers_performance.jpg" /></center>
+
+<hr />
+
+<h3 id="an-introduction-to-probabilistic-programming-in-python">An introduction to Probabilistic Programming in Python</h3>
+
+<p>ECSS conference, Nov 2022</p>
+
+<p>This talk introduce the Probabilistic Programming, which inlucde various regression approaches using different Python packages.</p>
+
+<p><a href="https://github.com/danhphan/workshops/tree/main/2022-ECSS-Conference"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a></p>
+
+<center><img src="../assets/projects/Robust_Linear_Regression.png" /></center>
+
+<hr />
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
 </div>
 
       
