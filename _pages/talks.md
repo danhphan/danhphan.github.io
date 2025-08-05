@@ -1,5 +1,5 @@
 ---
-permalink: /projects/
+permalink: /talks/
 author_profile: true
 excerpt: ''
 header:
@@ -13,7 +13,7 @@ toc_label: "List of my talks"
 toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
 
-Recent talks:
+Related talks:
 
 
 ### Building 3D Trusted Data Pipelines With Dagster, Dbt, and Duckdb
@@ -22,8 +22,9 @@ PyCon Australia, Aug 2023
 
 This talk will demonstrate an example of building trusted data pipelines with 3D packages: Dagster, Dbt, and Duckdb. First, it presents the importance of trusted data pipelines by testing data quality. It then discusses what we need to test data quality, from high levels (like tables, relations, …) to low levels (like rows and columns). After that, I will show how to implement these tests using different Dbt packages like dbt-utils and dbt-expectations.
 
-Link: https://2023.pycon.org.au/program/RY9ZCY/
-Recording: https://www.youtube.com/watch?v=jAb0T3cDcd0
+Link: [https://2023.pycon.org.au/program/trusted-data-pipelines/](https://2023.pycon.org.au/program/RY9ZCY/)
+
+Recording: [https://www.youtube.com/watch?v=jAb0T3cDcd0](https://www.youtube.com/watch?v=jAb0T3cDcd0)
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/trusted-data-pipeline)
 
@@ -42,7 +43,7 @@ The talk aims to get users quickly up and performing gaussian processes (GPs), e
 
 The following picture shows the estimated sprin rates of three top pitchers in different game dates. Please check the [PyMC example](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html) for further details.
 
-Link: https://pymcon.com/events/#an_introduction_to_multi-output_gaussian_processes_using_pymc
+Link: [https://pymcon.com/events/gaussian-processes-introduction](https://pymcon.com/events/#an_introduction_to_multi-output_gaussian_processes_using_pymc)
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments) [![View on PyMC](https://img.shields.io/badge/PyMC-View%20on%20PyMC%20Documentation-brightgreen)](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html)
 

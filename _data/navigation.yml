@@ -9,5 +9,5 @@ main:
     url: /talks/
   - title: "Blog"
     url: https://danhphan.net/blog
-- title: "Publications"
+  - title: "Publications"
     url: /publications/  
