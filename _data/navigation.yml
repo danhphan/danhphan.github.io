@@ -7,7 +7,7 @@ main:
     url: /resume/
   - title: "Talk"
     url: /talks/
+  - title: "Publications"
+    url: /publications/
   - title: "Blog"
     url: https://danhphan.net/blog
-  - title: "Publications"
-    url: /publications/  
