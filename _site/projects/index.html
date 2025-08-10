@@ -218,7 +218,7 @@
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
-        <p>Turning data into actionable insights.</p>
+        <p>Data Engineering &amp; DataOps</p>
 
       </div>
     
@@ -340,19 +340,34 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-heart"></i> List of my projects</h4></header>
-              <ul class="toc__menu"><li><a href="#i-machine-learning">I. Machine Learning</a><ul><li><a href="#interest-rates-predictions">Interest rates predictions</a></li><li><a href="#modelling-baseball-playerss-performance">Modelling baseball players’s performance</a></li><li><a href="#aussie-social-sentiment-analysis">Aussie Social Sentiment Analysis</a></li></ul></li><li><a href="#ii-mlops--data-engineering">II. MLOps &amp; Data Engineering</a><ul><li><a href="#accelerating-testing-ci-pipelines">Accelerating testing CI pipelines</a></li><li><a href="#building-docker-images-for-pymc">Building Docker images for PyMC</a></li></ul></li><li><a href="#iii-data-science">III. Data Science</a><ul><li><a href="#data-visualisation-melbournian-daily-activities">Data Visualisation: Melbournian Daily Activities</a></li><li><a href="#domain-scenery-views---telegram-bot">Domain Scenery Views - Telegram Bot</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#i-data-engineering--dataops">I. Data Engineering &amp; DataOps</a><ul><li><a href="#market-risk-monitoring">Market Risk Monitoring</a></li><li><a href="#interest-rates-etls-and-predictions">Interest rates ETLs and predictions</a></li><li><a href="#accelerating-testing-cicd-pipelines-for-pytensor">Accelerating testing CI/CD pipelines for PyTensor</a></li><li><a href="#building-docker-images-for-pymc-into-dockerhub">Building Docker images for PyMC into DockerHub</a></li></ul></li><li><a href="#ii-machine-learning--mlops">II. Machine Learning &amp; MLOps</a><ul><li><a href="#modelling-baseball-playerss-performance-using-probabilistic-programming-with-pymc">Modelling baseball players’s performance using Probabilistic Programming with PyMC</a></li><li><a href="#aussie-social-sentiment-analysis-with-twitters-apis">Aussie Social Sentiment Analysis with Twitter’s APIs</a></li><li><a href="#data-visualisation-mapping-melbournian-daily-activities">Data Visualisation: Mapping Melbournian Daily Activities</a></li><li><a href="#domain-scenery-views---telegram-bot">Domain Scenery Views - Telegram Bot</a></li></ul></li></ul>
             </nav>
           </aside>
         
         <p>Recent projects:</p>
 
-<h2 id="i-machine-learning">I. Machine Learning</h2>
+<h2 id="i-data-engineering--dataops">I. Data Engineering &amp; DataOps</h2>
 
-<h3 id="interest-rates-predictions">Interest rates predictions</h3>
+<h3 id="market-risk-monitoring">Market Risk Monitoring</h3>
+
+<p>This project aims to monitor Financial Market Risk via various data sources. I demonstrate a complete cycle in Data Engineering and DataOps solution, including an data ingestion, data transformation, data flatform, using infra as code.</p>
+
+<p><a href="https://github.com/danhphan/market-risk-monitor"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View codes on GitHub" /></a></p>
+
+<!-- [Project dashboard](https://danhphan.net/apps/interest-rate.html)
+<center><img src="../assets/projects/predicted_interest_rates.png"/></center> -->
+
+<p><em>Data pipelines and architecture</em></p>
+
+<center><img src="../assets/projects/M3_Architecture.png" /></center>
+
+<hr />
+
+<h3 id="interest-rates-etls-and-predictions">Interest rates ETLs and predictions</h3>
 
 <p>This project aims to predict the base interest rates in Australia, US, and UK in the coming months. I demonstrate a complete cycle in Machine Learning and Data Engineering project, including an ETL process to collect and transform data from different data sources. The data is then stored in Azure Storage and is used for model development. The model is then deployed and served as a web service, which pushes the prediction results onto a Github page for visualization.</p>
 
-<p><a href="https://github.com/danhphan/credit-risk"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a></p>
+<p><a href="https://github.com/danhphan/credit-risk"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View codes on GitHub" /></a></p>
 
 <p><a href="https://danhphan.net/apps/interest-rate.html">Project dashboard</a></p>
 <center><img src="../assets/projects/predicted_interest_rates.png" /></center>
@@ -363,7 +378,33 @@
 
 <hr />
 
-<h3 id="modelling-baseball-playerss-performance">Modelling baseball players’s performance</h3>
+<h3 id="accelerating-testing-cicd-pipelines-for-pytensor">Accelerating testing CI/CD pipelines for PyTensor</h3>
+
+<p>Continuous Integration - Continuous Development (CI/CD) plays an essential role in MLOps and DataOps. One of the popular CI/CD tools is GitHub Actions. To enhance CI/CD pipelines, we can use the matrix strategy in GitHub Actions to run parallel tasks.</p>
+
+<p>For example, I have recently leveraged the <code class="language-plaintext highlighter-rouge">strategy.matrix</code> feature to significantly accelerate the testing CI pipelines for <a href="https://github.com/pymc-devs/pytensor">PyTensor</a> from 75 mins to around 26 mins (<strong>a 65% reduction</strong> in running time). Please check this <a href="https://github.com/pymc-devs/pytensor/pull/176">pull request</a> for further details.</p>
+
+<p><a href="https://github.com/pymc-devs/pytensor/pull/176"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View codes on GitHub" /></a></p>
+
+<center><img src="../assets/projects/testing_CI.jpg" /></center>
+
+<hr />
+
+<h3 id="building-docker-images-for-pymc-into-dockerhub">Building Docker images for PyMC into DockerHub</h3>
+
+<p>I have built a docker file for PyMC v4, which support both GPUs and CPUs version. The dockerfile has been merged into PyMC project’s code base in this <a href="https://github.com/pymc-devs/pymc/pull/5881">pull request</a>.</p>
+
+<p>The docker image is then published on <a href="https://hub.docker.com/r/pymc/pymc/tags">Docker Hub</a>, so users can easily pull the image and set up their environment.</p>
+
+<p><a href="https://github.com/danhphan/pymc-docker"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View codes on GitHub" /></a></p>
+
+<center><img src="../assets/projects/pymc_docker.JPG" /></center>
+
+<hr />
+
+<h2 id="ii-machine-learning--mlops">II. Machine Learning &amp; MLOps</h2>
+
+<h3 id="modelling-baseball-playerss-performance-using-probabilistic-programming-with-pymc">Modelling baseball players’s performance using Probabilistic Programming with PyMC</h3>
 
 <p>This work is supported by Google Summer of Code <a href="https://summerofcode.withgoogle.com/programs/2022/projects/lKwZ8APE">project</a>, which adds support for Multi-output Gaussian processes in <a href="https://www.pymc.io/blog/blog_gsoc_2022.html#danh-phan">PyMC</a>.</p>
 
@@ -375,50 +416,22 @@
 
 <hr />
 
-<h3 id="aussie-social-sentiment-analysis">Aussie Social Sentiment Analysis</h3>
+<h3 id="aussie-social-sentiment-analysis-with-twitters-apis">Aussie Social Sentiment Analysis with Twitter’s APIs</h3>
 
 <p>This project collects data from Twitter’s APIs, then cleans and stores in a sql database. The data is then used for model training and prediction of sentiment analysis for other tweets. The webapp uses Dash visualisations and is deployed on Herokuapp.</p>
 
-<p><a href="https://github.com/danhphan/aussie-sentiment"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
+<p><a href="https://github.com/danhphan/aussie-sentiment"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View codes on GitHub" /></a>
 <a href="https://aussie-sentiments.herokuapp.com"><img src="https://img.shields.io/badge/%E2%86%91_Deploy_to-Heroku-7056bf.svg?style=flat" alt="View Demo" /></a></p>
 
 <center><img src="../assets/projects/aussie_sentiment_analysis.gif" /></center>
 
 <hr />
 
-<h2 id="ii-mlops--data-engineering">II. MLOps &amp; Data Engineering</h2>
-
-<h3 id="accelerating-testing-ci-pipelines">Accelerating testing CI pipelines</h3>
-
-<p>Continuous Integration - Continuous Development (CI/CD) plays an essential role in MLOps and DataOps. One of the popular CI/CD tools is GitHub Actions. To enhance CI/CD pipelines, we can use the matrix strategy in GitHub Actions to run parallel tasks.</p>
-
-<p>For example, I have recently leveraged the <code class="language-plaintext highlighter-rouge">strategy.matrix</code> feature to significantly accelerate the testing CI pipelines for <a href="https://github.com/pymc-devs/pytensor">PyTensor</a> from 75 mins to around 26 mins (<strong>a 65% reduction</strong> in running time). Please check this <a href="https://github.com/pymc-devs/pytensor/pull/176">pull request</a> for further details.</p>
-
-<p><a href="https://github.com/pymc-devs/pytensor/pull/176"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a></p>
-
-<center><img src="../assets/projects/testing_CI.jpg" /></center>
-
-<hr />
-
-<h3 id="building-docker-images-for-pymc">Building Docker images for PyMC</h3>
-
-<p>I have built a docker file for PyMC v4, which support both GPUs and CPUs version. The dockerfile has been merged into PyMC project’s code base in this <a href="https://github.com/pymc-devs/pymc/pull/5881">pull request</a>.</p>
-
-<p>The docker image is then published on <a href="https://hub.docker.com/r/pymc/pymc/tags">Docker Hub</a>, so users can easily pull the image and set up their environment.</p>
-
-<p><a href="https://github.com/danhphan/pymc-docker"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a></p>
-
-<center><img src="../assets/projects/pymc_docker.JPG" /></center>
-
-<hr />
-
-<h2 id="iii-data-science">III. Data Science</h2>
-
-<h3 id="data-visualisation-melbournian-daily-activities">Data Visualisation: Melbournian Daily Activities</h3>
+<h3 id="data-visualisation-mapping-melbournian-daily-activities">Data Visualisation: Mapping Melbournian Daily Activities</h3>
 
 <p>This project visualises the daily activities of Melbournians in different areas.</p>
 
-<p><a href="https://github.com/danhphan/melburnian-daily-activities"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
+<p><a href="https://github.com/danhphan/melburnian-daily-activities"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View codes on GitHub" /></a>
 <a href="https://melbourn-city.herokuapp.com/static/activities.html"><img src="https://img.shields.io/badge/%E2%86%91_Deploy_to-Heroku-7056bf.svg?style=flat" alt="View Demo" /></a></p>
 
 <center><img src="../assets/projects/Melbourne_activities_1min.gif" /></center>
@@ -429,7 +442,7 @@
 
 <p>A Telegram bot in Python, which will automatically push the top listings into the Domain channel on Telegram each day. The top listings show properties with the most beautiful views like beaches, lakes, and city views in Australia cities. Customers can join Domain Scenery Views channel on Telegram to receive the news.</p>
 
-<p><a href="https://github.com/danhphan/Statistical-Learning"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a></p>
+<p><a href="https://github.com/danhphan/Statistical-Learning"><img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View codes on GitHub" /></a></p>
 
 <center><img src="../assets/projects/domain_tegegram_bot.jpg" /></center>
 
