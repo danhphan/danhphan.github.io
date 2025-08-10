@@ -46,7 +46,7 @@ plugins:
 author:
   name   : "Danh Phan"
   avatar : "/assets/images/danh_phan.jpg"
-  bio    : "Turning data into actionable insights."
+  bio    : "Data Engineering & DataOps"
   location : "Melboure, Australia"
   links:
     # - label: "Email"
