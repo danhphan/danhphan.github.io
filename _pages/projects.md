@@ -16,9 +16,9 @@ toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 Recent projects:
 
 
-## I. Machine Learning
+## I. Data Engineering & DataOps
 
-### Interest rates predictions 
+### Interest rates ETLs and predictions 
 
 This project aims to predict the base interest rates in Australia, US, and UK in the coming months. I demonstrate a complete cycle in Machine Learning and Data Engineering project, including an ETL process to collect and transform data from different data sources. The data is then stored in Azure Storage and is used for model development. The model is then deployed and served as a web service, which pushes the prediction results onto a Github page for visualization.
 
@@ -34,36 +34,9 @@ This project aims to predict the base interest rates in Australia, US, and UK in
 <center><img src="../assets/projects/ir_architecture_v1.jpg"/></center>
 
 
-
 ---
 
-### Modelling baseball players's performance
-
-This work is supported by Google Summer of Code [project](https://summerofcode.withgoogle.com/programs/2022/projects/lKwZ8APE), which adds support for Multi-output Gaussian processes in [PyMC](https://www.pymc.io/blog/blog_gsoc_2022.html#danh-phan). 
-
-We model the performances of different sport players by leveraging Multi-output Gaussian processes (MOGPs), which can simultaneously learn and infer many outputs with the same source of uncertainty. The following picture shows the estimated sprin rates of three top pitchers in different game dates. Please check the [PyMC example](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html) for further details.
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments) [![View on PyMC](https://img.shields.io/badge/PyMC-View%20on%20PyMC%20Documentation-brightgreen)](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html)
-
-<center><img src="../assets/projects/pitchers_performance.jpg"/></center>
-
----
-
-### Aussie Social Sentiment Analysis
-
-This project collects data from Twitter’s APIs, then cleans and stores in a sql database. The data is then used for model training and prediction of sentiment analysis for other tweets. The webapp uses Dash visualisations and is deployed on Herokuapp.
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/aussie-sentiment)
-[![View Demo](https://img.shields.io/badge/%E2%86%91_Deploy_to-Heroku-7056bf.svg?style=flat)](https://aussie-sentiments.herokuapp.com)
-
-<center><img src="../assets/projects/aussie_sentiment_analysis.gif"/></center>
-
----
-
-
-## II. MLOps & Data Engineering
-
-### Accelerating testing CI pipelines
+### Accelerating testing CI/CD pipelines for PyTensor
 
 Continuous Integration - Continuous Development (CI/CD) plays an essential role in MLOps and DataOps. One of the popular CI/CD tools is GitHub Actions. To enhance CI/CD pipelines, we can use the matrix strategy in GitHub Actions to run parallel tasks. 
 
@@ -75,7 +48,7 @@ For example, I have recently leveraged the `strategy.matrix` feature to signific
 
 ---
 
-### Building Docker images for PyMC
+### Building Docker images for PyMC into DockerHub
 
 I have built a docker file for PyMC v4, which support both GPUs and CPUs version. The dockerfile has been merged into PyMC project's code base in this [pull request](https://github.com/pymc-devs/pymc/pull/5881).
 
@@ -87,9 +60,33 @@ The docker image is then published on [Docker Hub](https://hub.docker.com/r/pymc
 
 ---
 
-## III. Data Science
 
-### Data Visualisation: Melbournian Daily Activities
+## II. Machine Learning & MLOps
+
+### Modelling baseball players's performance using Probabilistic Programming with PyMC
+
+This work is supported by Google Summer of Code [project](https://summerofcode.withgoogle.com/programs/2022/projects/lKwZ8APE), which adds support for Multi-output Gaussian processes in [PyMC](https://www.pymc.io/blog/blog_gsoc_2022.html#danh-phan). 
+
+We model the performances of different sport players by leveraging Multi-output Gaussian processes (MOGPs), which can simultaneously learn and infer many outputs with the same source of uncertainty. The following picture shows the estimated sprin rates of three top pitchers in different game dates. Please check the [PyMC example](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html) for further details.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/gp_experiments) [![View on PyMC](https://img.shields.io/badge/PyMC-View%20on%20PyMC%20Documentation-brightgreen)](https://www.pymc.io/projects/examples/en/latest/gaussian_processes/MOGP-Coregion-Hadamard.html)
+
+<center><img src="../assets/projects/pitchers_performance.jpg"/></center>
+
+---
+
+### Aussie Social Sentiment Analysis with Twitter’s APIs
+
+This project collects data from Twitter’s APIs, then cleans and stores in a sql database. The data is then used for model training and prediction of sentiment analysis for other tweets. The webapp uses Dash visualisations and is deployed on Herokuapp.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/danhphan/aussie-sentiment)
+[![View Demo](https://img.shields.io/badge/%E2%86%91_Deploy_to-Heroku-7056bf.svg?style=flat)](https://aussie-sentiments.herokuapp.com)
+
+<center><img src="../assets/projects/aussie_sentiment_analysis.gif"/></center>
+
+---
+
+### Data Visualisation: Mapping Melbournian Daily Activities
 
 This project visualises the daily activities of Melbournians in different areas.
 
